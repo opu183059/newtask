@@ -1,0 +1,48 @@
+.main {
+  padding: 30px;
+}
+.calculatorGrp {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  margin-top: 20px;
+  width: 250px;
+  height: 250px;
+  border: 2px solid gray;
+}
+.funcGrp {
+  margin: 10px 0px;
+  width: 50%;
+  /* background-color: aquamarine; */
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+}
+.functionBtn {
+  width: 150px;
+}
+.reset {
+  margin-bottom: 10px;
+  width: 50%;
+}
+.set {
+  margin-bottom: 10px;
+  width: 50%;
+  display: flex;
+}
+.set input {
+  width: 80%;
+}
+
+/* login page  */
+
+.form {
+  margin-left: 10px;
+  width: 200px;
+  height: 200px;
+}
